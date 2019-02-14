@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 li:hover {
@@ -48,13 +48,34 @@ li:hover {
 }
 
 li:hover a {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
 
   header {
     display: inline-block;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: left;
+    display: inline;
+  }
+
+  .title {
+    display: inline;
+    width: 50%;
+  }
+
+  div {
+    width: 50%;
+    display: inline;
+  }
+
+  nav {
+    display: inline;
+    width: 50%;
   }
 
 }
