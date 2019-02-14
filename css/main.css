@@ -65,17 +65,14 @@ li:hover a {
 
   .title {
     display: inline;
-    width: 50%;
   }
 
   div {
-    width: 50%;
     display: inline;
   }
 
   nav {
     display: inline;
-    width: 50%;
   }
 
 }
