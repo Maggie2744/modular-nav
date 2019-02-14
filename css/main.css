@@ -26,13 +26,12 @@ header {
 }
 
 h1 {
-
+  text-align: center;
 }
-
-nav {}
 
 ul {
   list-style-type: none;
+  text-align: center;
 }
 
 a {
@@ -40,10 +39,22 @@ a {
   color: #0074d9;
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 li:hover {
   background-color: #0074d9;
 }
 
 li:hover a {
-  color: #e2e2e2;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    display: inline-block;
+  }
+
 }
